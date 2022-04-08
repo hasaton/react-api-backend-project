@@ -1,0 +1,17 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    background-color: #1c1d1f;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Merriweather', serif;
+    
+    
+}
+
+.top-footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}

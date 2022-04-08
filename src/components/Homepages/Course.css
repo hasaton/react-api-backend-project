@@ -1,0 +1,58 @@
+.course-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.course-container{
+    width: 310px;
+  min-height: 200px;
+  margin: 1.5rem;
+background-color: rgba(0, 0, 0, 0.2);
+font-family: 'Merriweather', serif;
+  position: relative;
+  border-radius: 12px;
+  border: 10px;
+  overflow: hidden;
+  border: none;
+  
+  display: flex;
+  justify-content: stretch; 
+  justify-items: center;
+  flex-direction: column;
+  border-radius: 5%;
+  
+  max-width: 310px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.course-container p{
+    text-align: center;
+    margin: 3px;
+}
+.course-container h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.course-container button{
+    display: inline-block;
+    margin-right: 5%;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    border: 3px solid #FCB326;
+    border-radius: 6px;
+    box-shadow: 
+        0 2px 1px rgba(0, 0, 0, 0.2), 
+        inset 0 2px 1px rgba(0, 0, 0, 0.2);
+        font-family: 'Merriweather', serif;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #222;
+}
+
+.course-container button:hover{
+    border-color: #FDD68B
+}

@@ -1,0 +1,21 @@
+import './RightSideHeaderComponent.css'
+import { StoreContext } from "../../store/StoreProvider";
+import { useNavigate } from "react-router-dom";
+import { useContext } from "react";
+const RightSideHeaderComponent = () => {
+    const {user} = useContext(StoreContext)
+    const navigate = useNavigate()
+    const showCourses = () => navigate('/userCourses', {replace: true})
+    const showShoppingCart = () => navigate('/shoppingCart', {replace: true})
+    return  ( 
+        <>
+        <section className="rightSideHeader">
+        <span className="userCourses" onClick={showCourses}>Moje kursy</span>
+        <span className="shoppingCart" onClick={showShoppingCart}>Koszyk</span>
+        <span className="money">{user.budget}zl</span>
+        </section>
+        </>
+     );
+}
+ 
+export default RightSideHeaderComponent;
