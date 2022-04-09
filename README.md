@@ -11,3 +11,5 @@ Admin can buy, edit, open courses and change all settings.
 TODO:
 
 admin edit, single course page, changing language, changing currency, changing color themes.
+
+![alt text](https://puu.sh/ITMdx/47d8f123a5.png)
