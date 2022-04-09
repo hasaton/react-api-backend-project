@@ -56,3 +56,10 @@ font-family: 'Merriweather', serif;
 .course-container button:hover{
     border-color: #FDD68B
 }
+.course-container button:disabled{
+    opacity: 0.5;
+    cursor: auto;
+}
+.course-container button:disabled:hover{
+    border-color: #FCB326
+}

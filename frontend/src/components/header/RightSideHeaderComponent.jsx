@@ -6,12 +6,12 @@ const RightSideHeaderComponent = () => {
     const {user} = useContext(StoreContext)
     const navigate = useNavigate()
     const showCourses = () => navigate('/userCourses', {replace: true})
-    const showShoppingCart = () => navigate('/shoppingCart', {replace: true})
+    const showSettings = () => navigate('/settings', {replace: true})
     return  ( 
         <>
         <section className="rightSideHeader">
         <span className="userCourses" onClick={showCourses}>Moje kursy</span>
-        <span className="shoppingCart" onClick={showShoppingCart}>Koszyk</span>
+        <span className="settings" onClick={showSettings}>Ustawienia</span>
         <span className="money">{user.budget}zl</span>
         </section>
         </>

@@ -7,6 +7,7 @@ import Homepage from './components/homepage/Homepage';
 import LoginPage from './components/LoginPage/LoginPage';
 
 import Footer from './components/Footer/Footer';
+import Settings from './components/settings/Settings';
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
       <Route exact path="/" element={<Homepage/>} />
       <Route path="/loginpage" element={<LoginPage/>} />
       <Route path="/userCourses" element={<UserCourses/>} />
+      <Route path='/settings' element={<Settings/>}/>
     </Routes>
     
       <Footer/>

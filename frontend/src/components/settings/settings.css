@@ -1,0 +1,61 @@
+section.settings-section{
+    min-height: 100vh;
+    font-size: 3rem;
+    margin-top: 10vh;
+}
+
+section.settings-section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20vh;
+    border-radius: 2%;
+    min-height: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+section.settings-section h1 {
+    margin: 2%;
+    font-family: 'Merriweather', serif;
+}
+section.settings-section p {
+    min-width: 50%;
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+}
+
+section.settings-section button.darkModebtn {
+    
+    margin: 6px;
+    border: 3px solid black;
+    color: white;
+    border-radius: 6px;
+    background-color: black;
+    /* Font styles */
+    padding: 8px;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+}
+section.settings-section button.lightModebtn {
+    font-family: 'Merriweather', serif;
+    
+    margin: 6px;
+    border: 3px solid  #FCB326;;
+    color: black;
+    border-radius: 6px;
+    background-color: white;
+    /* Font styles */
+    padding: 8px;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    
+    cursor: pointer;
+}
