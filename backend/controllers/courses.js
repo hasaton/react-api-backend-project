@@ -56,7 +56,35 @@ const coursesData = [
     img: 'https://www.soldevelo.com/blog/wp-content/uploads/What-makes-a-great-programmer-banner-1536x1024-1.jpeg',
     price: 69.99,
     title: 'Programowanie obiektowe w JavaScript - opanuj, tworząc gry!'
-  }
+  },
+  {
+    authors: ['Michał Dziedziński', 'Kacper Sieradziński'],
+    id: uuid(),
+    img: 'https://static1.smartbear.co/smartbearbrand/media/images/blog/what%E2%80%99s-the-best-programming-language-to-learn-first.png?ext=.png',
+    price: 24.99,
+    title: 'Rest api Course!'
+  },
+  {
+    authors: ['Kacper Sieradziński'],
+    id: uuid(),
+    img: 'https://www.bairesdev.com/wp-content/uploads/2020/10/Top-100-programming-languages.jpg',
+    price: 4.99,
+    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit!'
+  },
+  {
+    authors: ['Tom Cruise'],
+    id: uuid(),
+    img: 'https://kinsta.com/wp-content/uploads/2021/03/best-programming-language-to-learn-1200x675.png',
+    price: 4.99,
+    title: 'Podstawy tworzenia aplikacji mobilnych we Flutterze!'
+  },
+  {
+    authors: ['Bartłomiej Borowczyk'],
+    id: uuid(),
+    img: 'https://files.realpython.com/media/TUT19---Functional-Programming_Watermarked.3bb16c6198a2.jpg',
+    price: 69.99,
+    title: 'Podstawy programowania w Dart'
+  },
 ];
 
 exports.getCourses = (request, response, next) => {

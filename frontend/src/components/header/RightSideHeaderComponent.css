@@ -16,3 +16,9 @@
     color: chocolate;
     cursor: pointer;
 }
+
+@media  screen and (max-width: 800px) {
+    .userCourses, .money, .settings{
+        display: none;
+    }
+}

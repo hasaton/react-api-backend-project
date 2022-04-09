@@ -3,7 +3,7 @@ const { coursesData } = require('./courses');
 const usersData = [
   {
     accessLevel: 0,
-    budget: 150,
+    budget: 300,
     courses: [
       coursesData[0].id,
       coursesData[1].id,

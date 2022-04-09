@@ -1,7 +1,8 @@
 section.settings-section{
-    min-height: 100vh;
+    min-height: 80vh;
     font-size: 3rem;
     margin-top: 10vh;
+    
 }
 
 section.settings-section-container{
@@ -13,6 +14,7 @@ section.settings-section-container{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 20vh;
+    margin-bottom: 20vh;
     border-radius: 2%;
     min-height: 100%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -23,8 +25,10 @@ section.settings-section h1 {
 }
 section.settings-section p {
     min-width: 50%;
+    
     font-family: 'Merriweather', serif;
     font-size: 2rem;
+    margin-bottom: 2%;
 }
 
 section.settings-section button.darkModebtn {

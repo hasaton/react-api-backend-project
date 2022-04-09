@@ -13,8 +13,6 @@ const Settings = () => {
             Kolory strony <button className="darkModebtn">Dark Mode</button>{" "}
             <button className="lightModebtn">Light Mode</button>{" "}
           </p>
-          <p>Jezyk </p>
-          <p></p>
         </section>
       </section>
     </>

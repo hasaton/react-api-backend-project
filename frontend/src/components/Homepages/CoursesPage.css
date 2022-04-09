@@ -18,3 +18,14 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
     font-family: 'Merriweather', serif;
 }
+
+@media screen and (max-width: 860px){
+  .courses-heading{
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 480px){
+  .courses-heading{
+    font-size: 1.5rem;
+  }
+}
