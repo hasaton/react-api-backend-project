@@ -56,6 +56,7 @@
     font-size: 12px;
     text-transform: uppercase;
     color: #222;
+    margin-right: 20%;
 }
 
 .header .login:hover {
@@ -98,4 +99,17 @@
         span.welcome-again {
             display: none;
         }
+    }
+    @media screen and (max-width: 1468px)
+    {
+        .header span{
+            font-size: 1.6rem;
+        }
+        input.find{
+            display: none;
+        }
+        span.welcome-again {
+            display: none;
+        }
+        
     }

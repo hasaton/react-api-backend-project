@@ -4,6 +4,7 @@ import "./Header.css";
 import { StoreContext } from "../../store/StoreProvider";
 import Button from "./Button";
 import RightSideHeaderComponent from "./RightSideHeaderComponent";
+import HamburgerMenu from "../hamburgermenu/HamburgerMenu";
 const Header = () => {
   const { user } = useContext(StoreContext);
   const navigation = useNavigate();
@@ -26,7 +27,10 @@ const Header = () => {
         <span className="welcome-again">Witaj ponownie {user.login}</span>
       )}
       {user && <RightSideHeaderComponent />}
-      <Button />
+      <HamburgerMenu />
+      <div className="btnbtn">
+        <Button />
+      </div>
     </header>
   );
 };

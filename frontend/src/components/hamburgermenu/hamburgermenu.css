@@ -1,0 +1,40 @@
+.hamburger-menu-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    
+    text-align: end;
+    background: darkkhaki;
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+
+.hamburger-menu-container span{
+    display: block;
+}
+.hamburger-menu{
+    display: none;
+    margin-right: 20%;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.userCourses-hamburger, .settings-hamburger, .money-hamburger{
+    cursor: pointer;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 985px)
+{
+    .hamburger-menu{
+        display: flex;
+    }
+}
